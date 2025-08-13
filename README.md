@@ -55,7 +55,7 @@ Currency price simulation tool with two modeling approaches:
 - 📐 Model: **Geometric Brownian Motion** (GBM)  
 - 📊 Uses normally distributed random values (Box–Muller transform)  
 - 🔢 Price update formula:
-  ![formula](https://latex.codecogs.com/png.latex?\color{RoyalBlue}P_{t+\Delta%20t}%20=%20P_t%20\cdot%20\exp\left[%20(\mu%20-%200.5\sigma^2)\Delta%20t%20+%20\sigma%20\sqrt{\Delta%20t}%20\cdot%20\xi%20\right]) 
+  ![formula](https://latex.codecogs.com/png.latex?\color{RoyalBlue}P_{t+\Delta%20t}%20=%20P_t%20\cdot%20\exp\left[%20(\mu%20-%200.5\sigma^2)\Delta%20t%20+%20\sigma%20\sqrt{\Delta%20t}%20\cdot%20\xi%20\right])
   where:  
   - μ = mean growth rate  
   - σ = volatility  
