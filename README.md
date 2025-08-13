@@ -43,12 +43,12 @@ Currency price simulation tool with two modeling approaches:
 ### **Version 1 — PriceSimulation**  
 - 📐 Model: simple random walk with step factor `k = 0.03`  
 - 🔢 Price update formula:
-  ![formula](https://latex.codecogs.com/png.latex?\color{blue}P_{\text{next}}%20=%20P_{\text{current}}%20\cdot%20\left(1%20+%20k%20\cdot%20(\text{rand}%20-%200.5)\right))
+  ![formula](https://latex.codecogs.com/png.latex?\color{DarkGreen}P_{\text{next}}%20=%20P_{\text{current}}%20\cdot%20\left(1%20+%20k%20\cdot%20(\text{rand}%20-%200.5)\right))
 - 🎯 Produces short-term, random oscillations without trend
 
 - 📐 Модель: простое случайное блуждание с коэффициентом шага `k = 0.03`  
 - 🔢 Формула обновления цены:  
-  ![formula](https://latex.codecogs.com/png.latex?\color{blue}P_{\text{next}}%20=%20P_{\text{current}}%20\cdot%20\left(1%20+%20k%20\cdot%20(\text{rand}%20-%200.5)\right))  
+  ![formula](https://latex.codecogs.com/png.latex?\color{RoyalBlue}P_{\text{next}}%20=%20P_{\text{current}}%20\cdot%20\left(1%20+%20k%20\cdot%20(\text{rand}%20-%200.5)\right))  
 - 🎯 Дает краткосрочные случайные колебания без выраженного тренда
 
 ### **Version 2 — PriceSimulationNewVersion**  
